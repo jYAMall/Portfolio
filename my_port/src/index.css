@@ -79,6 +79,13 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
+.blockchain {
+  color: #000;
+  background-color: #fff;
+  text-transform: uppercase;
+  mix-blend-mode: screen;
+}
+
 
 @tailwind base;
 @tailwind components;

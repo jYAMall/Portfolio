@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import { HiMenu, HiOutlineX } from 'react-icons/hi';
 
 
@@ -10,7 +10,7 @@ const Navbar = () => {
 
 
   return (
-    <div className='w-full h-[90px] bg-cyan-900'>
+    <div className='w-full h-[90px] bg-[#030a19]'>
         <div className='max-w-[1240px] mx-auto px-4 flex justify-between items-center h-full '>
             <div className='bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-blue-500'>Blockhain developer</div>
             <div className='hidden md:flex'>
@@ -18,7 +18,7 @@ const Navbar = () => {
                     <li>Home</li>
                     <li>About</li>
                     <li>Contact</li>
-                    <button class="bg-cyan-500 shadow-lg shadow-cyan-500/50 text-white py-2 px-7 mx-4 rounded-full cursor-pointer hover:bg-[#10ebf9]" > Offer of cooperation </button>
+                    <button class="bg-cyan-500  shadow-cyan-500/50 text-white py-2 px-7 mx-4 rounded-full cursor-pointer hover:bg-[#10ebf9]" > Offer of cooperation </button>
                 </ul>
                 
             </div>
