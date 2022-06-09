@@ -4,6 +4,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  
 }
 
 body {
@@ -11,6 +12,7 @@ body {
   font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color:#030a19;
 }
 
 .gradient-bg-welcome {
@@ -79,13 +81,129 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-.blockchain {
-  color: #000;
-  background-color: #fff;
-  text-transform: uppercase;
-  mix-blend-mode: screen;
-}
 
+
+.navbar {
+  height: 80px;
+  
+  background-color: transparent; 
+
+  position: static;
+  top: 0;
+  font-size: 1.3rem;
+  border-bottom: 0px solid white; }
+
+  .cover {
+    position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+  }
+
+  .skills {
+    margin: 90px;
+    list-style: none;
+  }
+  .skills li{
+    margin: 0px 0;
+  }
+
+  .bar {
+    display: block;
+    height: 20px;
+    background-color: #fff;
+    margin: 0 10px;
+    border-radius: 0px;
+    
+  }
+
+  .bar span{
+    height: 100%;
+    float: left;
+    background: linear-gradient(45deg, #6466f1, #a855f7, #ec4899);
+  }
+
+  .solidity {
+    width: 50%;
+    animation: solidity 4s;
+  }
+
+  .react {
+    width: 60%;
+    animation: react 4s;
+  }
+
+  .python {
+    width: 60%;
+    animation: python 4s;
+  }
+
+  .bootstrap {
+    width: 70%;
+    animation: bootstrap 4s;
+  }
+  
+  .css {
+    width: 90%;
+    animation: css 4s;
+  }
+
+  @keyframes solidity {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 50%;
+    }
+  }
+
+  @keyframes react {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 60%;
+    }
+  }
+
+  @keyframes python {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 60%;
+    }
+  }
+
+  @keyframes bootstrap {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 70%;
+    }
+  }
+
+  @keyframes css {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 90%;
+    }
+  }
+
+  @keyframes solidity {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 50%;
+    }
+  }
+
+  
 
 @tailwind base;
 @tailwind components;
@@ -96,3 +214,5 @@ body {
     @apply px-4; 
   }
 }
+
+
