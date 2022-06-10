@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Body from './components/Body';
 import About from './components/About';
 import Skills from './components/Skills';
+import Subscribe from './components/Subscribe';
 
 
 
@@ -16,6 +17,7 @@ function App() {
       < Body/>
       < About/>
       < Skills/>
+      < Subscribe/>
      
     </h1>
   );
